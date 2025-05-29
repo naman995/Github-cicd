@@ -6,6 +6,6 @@ jobs:
     steps:
       - name: "Greet User"
         run: |
-          echo "Hello World"
-          echo "${{toJson(github)}}""
-          git clone https://github.com/${{github.repository}}.git
+        #   echo "Hello World"
+        #   echo "${{toJson(github)}}""
+        #   git clone https://github.com/${{github.repository}}.git
